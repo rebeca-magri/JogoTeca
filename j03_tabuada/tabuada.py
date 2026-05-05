@@ -22,3 +22,6 @@ def jogar_tabuada():
     else:
         print("Está errado, tente novamente!")
         print(f"O resultado correto é {equaç}!")
+
+if __name__ == "__main__":
+    jogar_tabuada()

@@ -4,6 +4,7 @@ from j03_tabuada.tabuada import jogar_tabuada
 from j04_cara_or_coroa.cara_or_coroa import jogar_cara_coroa
 from j05_impar_or_par.game_impar_or_par import jogar_impar_par
 from j06_jogo_das_tres_coisas.jogo_das_tres_coisas import jogar_jogo_tres_coisas
+from j02_adivinhe_numero.adivinha import jogar_adivinha_2
 
 while True:
 
@@ -48,6 +49,7 @@ while True:
     ##                  4 - Cara ou Coroa                     ##
     ##                  5 - Impar ou Par                      ##
     ##                  6 - Jogo das três coisas              ##
+    ##                  7 - Adivinha 2.0                      ##
     ##                                                        ##
     ############################################################
         """)
@@ -66,6 +68,8 @@ while True:
         jogar_impar_par()
     elif escolha == 6:
         jogar_jogo_tres_coisas()
+    elif escolha == 7:
+        jogar_adivinha_2()
     elif escolha == 0:
         print("Foi bom jogar com você!")
         break

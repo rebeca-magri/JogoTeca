@@ -26,3 +26,6 @@ def jogar_mad_libs():
   Sabendo disso o/a {animal} se mudou para o/a {lugar}, lugar em que existiam muitos {obj} como aquele que o/a {animal} havia perdido.
   Enfim, o/a {animal} e seu/a {obj} sentiram muito/a {emoção}.
   """)
+
+if __name__ == "__main__":
+  jogar_mad_libs()

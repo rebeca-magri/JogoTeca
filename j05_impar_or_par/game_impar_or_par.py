@@ -36,3 +36,6 @@ def jogar_impar_par():
 
     else:
         print("OPS, não foi dessa vez, tente novamente!")
+
+if __name__ == "__main__":
+    jogar_impar_par()

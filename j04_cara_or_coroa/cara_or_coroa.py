@@ -33,3 +33,6 @@ def jogar_cara_coroa():
         print (f"Deu bom, deu {aleatorio}")
     else:
         print (f"Não deu bom, deu {aleatorio}")
+
+if __name__ == "__main__":
+    jogar_cara_coroa()

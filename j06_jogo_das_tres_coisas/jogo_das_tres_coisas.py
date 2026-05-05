@@ -38,3 +38,5 @@ def jogar_jogo_tres_coisas():
     else:
         print ("Voce ganhou, o ALVIN é menor")
 
+if __name__ == "__main__":
+    jogar_jogo_tres_coisas()

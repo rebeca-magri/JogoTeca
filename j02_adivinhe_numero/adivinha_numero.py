@@ -66,3 +66,5 @@ def jogar_adivinha_numero():
     else:
         print("Esse nível não existe")
 
+if __name__ == "__main__":
+    jogar_adivinha_numero()
