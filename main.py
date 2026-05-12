@@ -5,15 +5,16 @@ from j04_cara_or_coroa.cara_or_coroa import jogar_cara_coroa
 from j05_impar_or_par.game_impar_or_par import jogar_impar_par
 from j06_jogo_das_tres_coisas.jogo_das_tres_coisas import jogar_jogo_tres_coisas
 from j02_adivinhe_numero.adivinha import jogar_adivinha_2
+from j07_genius.genius import jogar_genius
 
 while True:
 
     print("""
         
-         ▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄     ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄ 
-        █   █       █       █       █   █       █       █       █      █
-        █   █   ▄   █   ▄▄▄▄█   ▄   █   █▄     ▄█    ▄▄▄█       █  ▄   █
-    ▄   █   █  █ █  █  █  ▄▄█  █ █  █     █   █ █   █▄▄▄█     ▄▄█ █▄█  █
+         ▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄    ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄ ▄▄▄▄▄▄ 
+        █   █       █       █       █  █       █       █       █      █
+        █   █   ▄   █   ▄▄▄▄█   ▄   █  █▄     ▄█    ▄▄▄█       █  ▄   █
+    ▄   █   █  █ █  █  █  ▄▄█  █ █  █    █   █ █   █▄▄▄█     ▄▄█ █▄█  █
     █ █▄█   █  █▄█  █  █ █  █  █▄█  █    █   █ █    ▄▄▄█    █  █      █
     █       █       █  █▄▄█ █       █    █   █ █   █▄▄▄█    █▄▄█  ▄   █
     █▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█    █▄▄▄█ █▄▄▄▄▄▄▄█▄▄▄▄▄▄▄█▄█ █▄▄█
@@ -50,6 +51,7 @@ while True:
     ##                  5 - Impar ou Par                      ##
     ##                  6 - Jogo das três coisas              ##
     ##                  7 - Adivinha 2.0                      ##
+    ##                  8 - Genius                            ##
     ##                                                        ##
     ############################################################
         """)
@@ -70,6 +72,8 @@ while True:
         jogar_jogo_tres_coisas()
     elif escolha == 7:
         jogar_adivinha_2()
+    elif escolha == 8:
+        jogar_genius()
     elif escolha == 0:
         print("Foi bom jogar com você!")
         break
